@@ -14,7 +14,6 @@ import { ActiveVisitCard } from '@/components/common/ActiveVisitCard';
 import type { ScheduleSummary } from '@/types';
 
 // Memoized header component
-//
 const DashboardHeader: React.FC = memo(() => {
   const handleLogout = useCallback(() => {
     console.log('Logging out...');
